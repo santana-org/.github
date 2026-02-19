@@ -1,0 +1,69 @@
+name: 🐛 Bug report
+description: Report a reproducible issue
+labels: [bug]
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: What’s happening?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Version
+      description: App version, tag or commit hash
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Environment
+      placeholder: OS, version, runtime, etc.
+
+  - type: textarea
+    attributes:
+      label: Logs / error output
+      render: shell
+
+  - type: dropdown
+    attributes:
+      label: Severity
+      options:
+        - Critical (crash / data loss)
+        - High (feature broken)
+        - Medium (workaround exists)
+        - Low (minor issue)
+
+  - type: textarea
+    attributes:
+      label: Screenshots / videos
+      description: Optional visual context
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Anything else relevant
