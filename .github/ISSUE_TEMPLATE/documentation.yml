@@ -1,0 +1,15 @@
+name: 📚 Documentation
+description: Report missing or incorrect documentation
+title: "[DOCS] "
+labels: [documentation]
+
+body:
+  - type: textarea
+    attributes:
+      label: What is wrong or missing?
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Affected page / file
