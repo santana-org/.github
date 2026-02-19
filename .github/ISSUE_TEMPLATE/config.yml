@@ -1,0 +1,18 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/santana-org/discussions
+    about: General questions, ideas, and technical discussions.
+
+  - name: 🐛 Bug reports
+    url: https://github.com/santana-org/.github/issues/new?template=bug_report.yml
+    about: Report a reproducible issue with relevant details.
+
+  - name: ✨ Feature requests
+    url: https://github.com/santana-org/.github/issues/new?template=feature_request.yml
+    about: Suggest improvements or new functionality.
+
+  - name: 🔐 Security vulnerabilities
+    url: https://github.com/santana-org/.github/security/policy
+    about: Report security issues privately and responsibly.
