@@ -1,5 +1,6 @@
 name: 🐛 Bug report
 description: Report a reproducible issue
+title: "[BUG]: "
 labels: [bug]
 
 body:
