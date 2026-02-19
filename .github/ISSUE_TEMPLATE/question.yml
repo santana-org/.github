@@ -1,0 +1,17 @@
+name: ❓ Question
+description: Ask a question or request clarification
+title: "[QUESTION]: "
+labels: [question]
+
+body:
+  - type: textarea
+    attributes:
+      label: Question
+      description: What do you need help with?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Context
+      description: Relevant details, links, or examples
