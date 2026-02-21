@@ -1,0 +1,52 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":semanticCommitType(chore)",
+    ":semanticCommitScope(deps)",
+    ":separateMultipleMajorReleases",
+    ":combinePatchMinorReleases",
+    ":dependencyDashboard",
+    ":maintainLockFilesWeekly",
+    ":rebaseStalePrs",
+    ":enableVulnerabilityAlerts",
+    "helpers:pinGitHubActionDigests"
+  ],
+
+  "labels": ["dependencies"],
+  "timezone": "America/Santiago",
+  "schedule": ["before 09:00 on monday"],
+  "prConcurrentLimit": 5,
+
+  "minimumReleaseAge": "3 days",
+  "rangeStrategy": "auto",
+
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr",
+      "labels": ["deps:patch", "deps:dev"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "minor deps",
+      "labels": ["deps:minor"]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "labels": ["deps:major"],
+      "automerge": false
+    },
+    {
+      "matchPackagePatterns": ["^@types/"],
+      "groupName": "types",
+      "labels": ["deps:types"]
+    }
+  ]
+}
