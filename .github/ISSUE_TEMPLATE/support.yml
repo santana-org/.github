@@ -1,0 +1,34 @@
+name: 💬 Support
+description: Ask for help or clarification
+title: "[SUPPORT]: "
+labels: [support]
+
+body:
+  - type: textarea
+    attributes:
+      label: Question
+      description: What do you need help with?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Context
+      description: Relevant details or background
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Version
+      description: App version, tag, or commit hash
+
+  - type: input
+    attributes:
+      label: Environment
+      placeholder: OS, runtime, tooling, etc.
+
+  - type: textarea
+    attributes:
+      label: Additional notes
+      description: Optional
