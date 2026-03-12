@@ -11,6 +11,9 @@ To get started, check the Issues tab and look for labels such as `good first iss
 or `help wanted` to find tasks suitable for new contributors.
 
 <!-- top-projects:start -->
+- [vesta](https://github.com/santana-org/vesta) - just clean ur desktop
+- [assets](https://github.com/santana-org/assets) - Shared assets for @santana-org.
+- [docs](https://github.com/santana-org/docs) - No description
 <!-- top-projects:end -->
 
 ## 🔐 Security
