@@ -11,9 +11,11 @@ To get started, check the Issues tab and look for labels such as `good first iss
 or `help wanted` to find tasks suitable for new contributors.
 
 <!-- top-projects:start -->
-- [vesta](https://github.com/santana-org/vesta) - just clean ur desktop
-- [assets](https://github.com/santana-org/assets) - Shared assets for @santana-org.
+- [vesta](https://github.com/santana-org/vesta) - 🧼 Just clean your desktop, automatically.
+- [assets](https://github.com/santana-org/assets) - 📷 shared assets for @santa-org.
 - [docs](https://github.com/santana-org/docs) - No description
+- [ideas](https://github.com/santana-org/ideas) - 🧠 Early concepts and ideas for upcoming open-source projects
+- [goodra](https://github.com/santana-org/goodra) - 🧬 Tool to scan dev environments and recover disk space.
 <!-- top-projects:end -->
 
 ## 🔐 Security
