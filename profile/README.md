@@ -12,10 +12,10 @@ or `help wanted` to find tasks suitable for new contributors.
 
 <!-- top-projects:start -->
 - [vesta](https://github.com/santana-org/vesta) - 🧼 Just clean your desktop, automatically.
-- [assets](https://github.com/santana-org/assets) - 📷 shared assets for @santa-org.
-- [docs](https://github.com/santana-org/docs) - No description
+- [assets](https://github.com/santana-org/assets) - 📷 Shared assets for @santa-org.
 - [ideas](https://github.com/santana-org/ideas) - 🧠 Early concepts and ideas for upcoming open-source projects
 - [goodra](https://github.com/santana-org/goodra) - 🧬 Tool to scan dev environments and recover disk space.
+- [docs](https://github.com/santana-org/docs) - No description
 <!-- top-projects:end -->
 
 ## 🔐 Security
