@@ -11,11 +11,11 @@ To get started, check the Issues tab and look for labels such as `good first iss
 or `help wanted` to find tasks suitable for new contributors.
 
 <!-- top-projects:start -->
-- [vesta](https://github.com/santana-org/vesta) - 🧼 Just clean your desktop, automatically.
 - [uxie](https://github.com/santana-org/uxie) - 📦 Modern TypeScript utilities for building elegant JavaScript tooling.
+- [vesta](https://github.com/santana-org/vesta) - 🧼 Just clean your desktop, automatically.
 - [luxray](https://github.com/santana-org/luxray) - ⚙️ Simple, fast, and reliable Discord bot for community utility and engagement.
 - [assets](https://github.com/santana-org/assets) - 📷 Shared assets for @santa-org.
-- [ideas](https://github.com/santana-org/ideas) - 🧠 Early concepts and ideas for upcoming open-source projects
+- [ideas](https://github.com/santana-org/ideas) - 🧠 Early concepts and ideas for upcoming open-source projects.
 <!-- top-projects:end -->
 
 ## 🔐 Security
